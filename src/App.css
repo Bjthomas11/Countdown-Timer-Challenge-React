@@ -85,8 +85,8 @@ li a:hover {
 }
 
 .flip-countdown {
-  margin: 2rem 0 8rem 0;
-  font-family: "Red Hat Text", sans-serif;
+  margin: 2rem 0 8rem 0 !important;
+  font-family: "Red Hat Text", sans-serif !important;
 }
 
 .flip-countdown
@@ -94,9 +94,9 @@ li a:hover {
   .flip-countdown-card
   .flip-countdown-card-sec
   .card__top {
-  color: var(--softred);
-  opacity: 0.7;
-  background: var(--darkblue);
+  color: var(--softred) !important;
+  opacity: 0.7 !important;
+  background: var(--darkblue) !important;
 }
 
 .flip-countdown
@@ -104,19 +104,17 @@ li a:hover {
   .flip-countdown-card
   .flip-countdown-card-sec
   .card__bottom {
-  color: var(--softred);
-  background: var(--darkblue);
+  color: var(--softred) !important;
+  background: var(--darkblue) !important;
 }
 
 .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title {
-  z-index: 9999;
-  display: block;
   text-align: center;
   width: 100%;
-  font-size: 14px;
-  color: var(--grayblue);
-  letter-spacing: 2px;
-  padding-top: 1rem;
+  font-size: 14px !important;
+  color: var(--grayblue) !important;
+  letter-spacing: 2px !important;
+  padding-top: 1rem !important;
 }
 
 .flip-countdown
@@ -124,18 +122,18 @@ li a:hover {
   .flip-countdown-card
   .flip-countdown-card-sec
   .card__top {
-  border-bottom: 1px solid var(--darkblue);
+  border-bottom: 1px solid var(--darkblue) !important;
 }
 
 .flip-countdown.size-medium
   .flip-countdown-piece
   .flip-countdown-card
   .flip-countdown-card-sec {
-  font-size: 60px;
+  font-size: 60px !important;
 }
 
 .flip-countdown .flip-countdown-piece .flip-countdown-card {
-  margin-right: 1rem;
+  margin-right: 1rem !important;
 }
 
 /* mobile first */
