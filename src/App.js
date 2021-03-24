@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { FaPinterest, FaInstagram, FaFacebook } from "react-icons/fa";
+import CountdownTimer from "./Components/CountdownTimer";
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="main">
+      <Title title="We're launching soon" />
+      <CountdownTimer />
+      <div className="pattern-bottom">
+        <div className="social-container">
+          <ul>
+            <li>
+              <a href="#">
+                <FaFacebook size={30} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaPinterest size={30} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaInstagram size={30} />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
   );
-}
+};
+
+const Title = ({ title }) => <h2 className="title">{title}</h2>;
 
 export default App;
