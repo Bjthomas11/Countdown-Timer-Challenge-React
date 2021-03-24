@@ -12,17 +12,17 @@ const App = () => {
         <div className="social-container">
           <ul>
             <li>
-              <a href="#">
+              <a href="/">
                 <FaFacebook size={30} />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 <FaPinterest size={30} />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 <FaInstagram size={30} />
               </a>
             </li>
